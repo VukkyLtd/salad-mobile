@@ -1,5 +1,5 @@
 # Salad Mobile
-An unofficial Salad app that can run on mobile devices.
+An unofficial Salad app that can run on Android devices.
 It should run fine on tablets too, but you may notice some issues.
 
 ## Features
