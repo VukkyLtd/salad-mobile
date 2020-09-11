@@ -15,3 +15,9 @@ No. There is no reason for me to implement them, and implemeting them would prob
 
 ### Does this literally just load up [app.salad.io](https://app.salad.io)?
 Yes. That's exactly what it does.
+
+### Apple devices when?
+No. I don't want to pay $99 for something like this. Thank you for your understanding.
+
+## Can I mine on my mobile device?
+No. That's not profitable at all.
