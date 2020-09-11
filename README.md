@@ -7,3 +7,8 @@ It should run fine on tablets too, but you may notice some issues.
 ## Features
 Salad Mobile should be nearly identical to the desktop version, excluding the following features:
 * Mining
+
+## FAQ
+
+### Are there advertisements?
+No. There is no reason for me to implement them, and implemeting them would probably make Salad very very angry at me.
