@@ -8,6 +8,7 @@ import android.content.res.Configuration
 import android.os.Bundle
 import android.util.DisplayMetrics
 import android.util.Log
+import android.view.ViewGroup
 import android.webkit.WebView
 
 
@@ -40,6 +41,8 @@ class MainActivity : Activity() {
                 .setPositiveButton(android.R.string.ok, null)
                 .setIcon(android.R.drawable.ic_dialog_info)
                 .show()
+        } else if (dpWidth > 768) {
+            saladBrowsing.layoutParams.width = ViewGroup.LayoutParams.MATCH_PARENT
         }
 
         val orientation = resources.configuration.orientation
