@@ -19,5 +19,5 @@ Yes. That's exactly what it does.
 ### Apple devices when?
 No. I don't want to pay $99 for something like this. Thank you for your understanding.
 
-## Can I mine on my mobile device?
+### Can I mine on my mobile device?
 No. That's not profitable at all.
