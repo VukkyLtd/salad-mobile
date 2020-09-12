@@ -16,6 +16,10 @@ No. There is no reason for me to implement them, and implemeting them would prob
 ### Does this literally just load up [app.salad.io](https://app.salad.io)?
 Yes. That's exactly what it does.
 
+#### Then why did you even bother making it?
+Honestly, it wasn't that hard. This is still better than what we had before, which was nothing.
+Sure, you could load up [app.salad.io](https://app.salad.io) in your phone's web browser, but the Salad team already attempted killing it off by adding the "Device not supported" message.
+
 ### Apple devices when?
 No. I don't want to pay $99 for something like this. Thank you for your understanding.
 
