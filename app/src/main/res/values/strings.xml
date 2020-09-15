@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">Salad Mobile</string>
-    <string name="portrait_title">Portrait mode isn\'t supported.</string>
-    <string name="portrait_message">Salad Mobile is only officially supported in landscape mode. Do you want to switch to landscape now?</string>
-    <string name="issues_title">Your device may have issues with Salad Mobile.</string>
-    <string name="width_issues">In order to bypass the "Device not supported" message Salad has, some UI elements may be cut off.</string>
+    <string name="portrait_title">Landscape mode isn\'t supported.</string>
+    <string name="portrait_message">Salad Mobile is only supported in portrait mode. Do you want to switch to portrait now?</string>
 </resources>
