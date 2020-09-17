@@ -11,7 +11,10 @@ Salad Mobile should be nearly identical to the desktop version, excluding the fo
 ## FAQ
 
 ### Are there advertisements?
-No. There is no reason for me to implement them, and implemeting them would probably make Salad very very angry at me.
+No. There is no reason for me to implement them.
+
+#### Will you add advertisements?
+Also no. Doing so will probably make Salad very very angry at me.
 
 ### Does this literally just load up [app.salad.io](https://app.salad.io)?
 Yes. That's exactly what it does.
