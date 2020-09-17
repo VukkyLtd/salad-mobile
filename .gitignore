@@ -10,3 +10,4 @@
 *.apk
 *.aab
 app/release/output-metadata.json
+app/release/release-template.md
