@@ -2,10 +2,7 @@ package com.vukkylimited.saladmobile
 
 import android.annotation.SuppressLint
 import android.app.Activity
-import android.app.AlertDialog
 import android.content.Intent
-import android.content.pm.ActivityInfo
-import android.content.res.Configuration
 import android.net.Uri
 import android.os.Bundle
 import android.os.Message
@@ -13,7 +10,6 @@ import android.webkit.WebChromeClient
 import android.webkit.WebView
 import android.webkit.WebView.WebViewTransport
 import android.webkit.WebViewClient
-import androidx.core.content.ContextCompat.startActivity
 
 
 class MainActivity : Activity() {
@@ -24,7 +20,7 @@ class MainActivity : Activity() {
 
         // Actual Salad Mobile code
         val saladBrowsing: WebView = findViewById(R.id.salad_view)
-        saladBrowsing.loadUrl("https://app.salad.io")
+        saladBrowsing.loadUrl("https://app.salad.io/earn/summary")
         saladBrowsing.setInitialScale(1)
         saladBrowsing.settings.javaScriptEnabled = true
         saladBrowsing.settings.domStorageEnabled = true
@@ -32,21 +28,6 @@ class MainActivity : Activity() {
         saladBrowsing.settings.loadWithOverviewMode = true
         saladBrowsing.settings.setSupportMultipleWindows(true)
         saladBrowsing.webChromeClient = SaladWebChromeClient()
-
-        // Device checks
-
-        val orientation = resources.configuration.orientation
-        if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            AlertDialog.Builder(this)
-                .setTitle(getString(R.string.portrait_title))
-                .setMessage(getString(R.string.portrait_message))
-                .setPositiveButton(android.R.string.yes) { _, _ ->
-                    requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
-                }
-                .setNegativeButton(android.R.string.no, null)
-                .setIcon(android.R.drawable.ic_dialog_alert)
-                .show()
-        }
     }
 }
 
